@@ -1,0 +1,143 @@
+<pattern>
+<argument op ="0.9"></argument>
+<link start="1" end="12" O="1" d0="0"></link>
+<link start="12" end="4" O="1" d0="0"></link>
+<link start="4" end="3" O="1" d0="0"></link>
+<role id="0" name="反向的线" weight="0" ></role>
+<role id="3" name="主体内部" weight="1" ></role>
+<role id="4" name="客体内部" weight="1" ></role>
+<role id="5" name="结果性标识" weight="1" ></role>
+<role id="6" name="主体对客体" weight="0.1" ></role>
+<role id="7" name="主体对结果性标识" weight="0.75" ></role>
+<role id="8" name="客体对结果性标识" weight="0.75" ></role>
+<role id="9" name="设备内部" weight="1" ></role>
+<scene id="111" name="证件类" o0="501" d0="0" weight="0.95" ></scene>
+<scene id="112" name="金融资产类" o0="501" d0="0" weight="0.95" ></scene>
+<scene id="113" name="付费账号类" o0="501" d0="0" weight="0.85" ></scene>
+<scene id="114" name="互联网服务类" o0="1" d0="0" weight="0.60" ></scene>
+<scene id="115" name="其他线下会员类" o0="1" d0="0" weight="0.60" ></scene>
+<scene id="211" name="内容上传" o0="1" d0="0" weight="0.60" ></scene>
+<scene id="212" name="发表/评论等" o0="1" d0="0" weight="0.60" ></scene>
+<scene id="213" name="明确观点、情绪或倾向性行为" o0="1" d0="0" weight="0.60" ></scene>
+<scene id="221" name="内容下载" o0="1" d0="0" weight="0.60" ></scene>
+<scene id="222" name="搜索导航" o0="1" d0="0" weight="0.60" ></scene>
+<scene id="223" name="书签收藏" o0="1" d0="0" weight="0.60" ></scene>
+<scene id="224" name="浏览" o0="1" d0="0" weight="0.60" ></scene>
+<scene id="225" name="展览和发布会" o0="1" d0="0" weight="0.60" ></scene>
+<scene id="231" name="音视频观看/购买" o0="1" d0="0" weight="0.60" ></scene>
+<scene id="232" name="书籍购买" o0="1" d0="0" weight="0.60" ></scene>
+<scene id="233" name="应用/软件/游戏相关行为" o0="1" d0="0" weight="0.60" ></scene>
+<scene id="234" name="订阅" o0="1" d0="0" weight="0.60" ></scene>
+<scene id="311" name="物流仓储" o0="1" d0="0" weight="0.85" ></scene>
+<scene id="312" name="快递、众包承运服务" o0="1" d0="0" weight="0.85" ></scene>
+<scene id="321" name="银行转账" o0="1" d0="0" weight="0.85" ></scene>
+<scene id="322" name="第三方支付转账" o0="0" d0="1" weight="0.85" ></scene>
+<scene id="331" name="通联类应用" o0="0" d0="1" weight="0.85" ></scene>
+<scene id="332" name="社交类应用" o0="0" d0="1" weight="0.60" ></scene>
+<scene id="333" name="短信/彩信" o0="0" d0="1" weight="0.85" ></scene>
+<scene id="334" name="传统语音通话" o0="0" d0="1" weight="0.85" ></scene>
+<scene id="335" name="VOIP" o0="0" d0="1" weight="0.60" ></scene>
+<scene id="336" name="其他线下通联" o0="0" d0="1" weight="0.60" ></scene>
+<scene id="341" name="电子邮件" o0="1" d0="0" weight="0.60" ></scene>
+<scene id="342" name="网络会议/视频会议" o0="1" d0="0" weight="0.85" ></scene>
+<scene id="343" name="聚会/团建/年会等线下协作" o0="1" d0="0" weight="0.85" ></scene>
+<scene id="351" name="各类应用和通联工具中群组所属的相关记录" o0="1" d0="0" weight="0.60" ></scene>
+<scene id="352" name="社交应用/服务及粉的相关行为" o0="1" d0="0" weight="0.60" ></scene>
+<scene id="353" name="关系型社交服务和行为记录" o0="1" d0="0" weight="0.60" ></scene>
+<scene id="354" name="线上其他社交行为" o0="1" d0="0" weight="0.60" ></scene>
+<scene id="355" name="会员俱乐部类的相关行为" o0="1" d0="0" weight="0.60" ></scene>
+<scene id="356" name="各类线下社交活动相关记录" o0="1" d0="0" weight="0.85" ></scene>
+<scene id="411" name="银行类金融资产行为" o0="1" d0="0" weight="0.85" ></scene>
+<scene id="412" name="其他金融资产获取或售让行为" o0="1" d0="0" weight="0.85" ></scene>
+<scene id="413" name="其他虚拟资产的获取或售让行为" o0="1" d0="0" weight="0.60" ></scene>
+<scene id="414" name="实体资产获取或售让行为" o0="1" d0="0" weight="0.85" ></scene>
+<scene id="421" name="预约挂号" o0="1" d0="0" weight="0.85" ></scene>
+<scene id="422" name="就诊体检等相关医疗记录" o0="1" d0="0" weight="0.95" ></scene>
+<scene id="423" name="医疗健康咨询记录" o0="1" d0="0" weight="0.85" ></scene>
+<scene id="424" name="生命事件" o0="1" d0="0" weight="0.95" ></scene>
+<scene id="425" name="医疗保险和理赔记录" o0="1" d0="0" weight="0.95" ></scene>
+<scene id="431" name="就职及部门职务相关行为记录" o0="1" d0="0" weight="0.95" ></scene>
+<scene id="432" name="求职应聘记录" o0="1" d0="0" weight="0.85" ></scene>
+<scene id="433" name="教育培训记录或证书获取" o0="1" d0="0" weight="0.95" ></scene>
+<scene id="441" name="政府" o0="1" d0="0" weight="0.95" ></scene>
+<scene id="442" name="银行" o0="1" d0="0" weight="0.85" ></scene>
+<scene id="443" name="运营商" o0="1" d0="0" weight="0.85" ></scene>
+<scene id="444" name="其他商业组织/机构" o0="1" d0="0" weight="0.85" ></scene>
+<scene id="511" name="银行卡" o0="1" d0="0" weight="0.95" ></scene>
+<scene id="512" name="第三方支付" o0="1" d0="0" weight="0.85" ></scene>
+<scene id="513" name="现金/预付费卡" o0="1" d0="0" weight="0.60" ></scene>
+<scene id="521" name="公共交通工具订购票记录及乘坐记录" o0="1" d0="0" weight="0.95" ></scene>
+<scene id="522" name="高速公路卡口缴费或视频记录" o0="1" d0="0" weight="0.85" ></scene>
+<scene id="523" name="住宿、旅游的预定和入住记录" o0="1" d0="0" weight="0.85" ></scene>
+<scene id="524" name="租房、租车记录" o0="1" d0="0" weight="0.85" ></scene>
+<scene id="525" name="出行软件的预定、呼叫和乘坐记录" o0="1" d0="0" weight="0.85" ></scene>
+<scene id="531" name="VPN" o0="1" d0="0" weight="0.85" ></scene>
+<scene id="532" name="代理" o0="1" d0="0" weight="0.60" ></scene>
+<scene id="533" name="加密" o0="1" d0="0" weight="0.85" ></scene>
+<scene id="534" name="暗网" o0="1" d0="0" weight="0.60" ></scene>
+<scene id="535" name="其他" o0="1" d0="0" weight="0.60" ></scene>
+<scene id="541" name="自发生产生活行为" o0="1" d0="0" weight="0.85" ></scene>
+<scene id="611" name="操作系统" o0="1" d0="0" weight="0.85" ></scene>
+<scene id="612" name="管理软件" o0="1" d0="0" weight="0.85" ></scene>
+<scene id="613" name="应用软件" o0="1" d0="0" weight="0.60" ></scene>
+<scene id="614" name="运营商网管或流量计费相关数据" o0="1" d0="0" weight="0.85" ></scene>
+<scene id="621" name="wifi感知" o0="1" d0="0" weight="0.85" ></scene>
+<scene id="622" name="智能视频识别" o0="1" d0="0" weight="0.95" ></scene>
+<scene id="623" name="二代证感知" o0="1" d0="0" weight="0.95" ></scene>
+<scene id="624" name="移动基站" o0="1" d0="0" weight="0.85" ></scene>
+<node id="1" name="cell" c0="90" ></node>
+<node id="2" name="tell" c0="90" ></node>
+<node id="3" name="mac" c0="75" ></node>
+<node id="4" name="imei" c0="80" ></node>
+<node id="5" name="id" c0="100" ></node>
+<node id="6" name="mail" c0="70" ></node>
+<node id="7" name="weibo" c0="85" ></node>
+<node id="8" name="qq" c0="85" ></node>
+<node id="9" name="weChat" c0="85" ></node>
+<node id="10" name="etcCard" c0="90" ></node>
+<node id="11" name="imsi" c0="90" ></node>
+<node id="12" name="BAT" c0="85" ></node>
+<node id="13" name="TUAT" c0="100" ></node>
+<node id="14" name="OtherCards" c0="85" ></node>
+<node id="15" name="FaceBook" c0="85" ></node>
+<node id="16" name="Fetion" c0="85" ></node>
+<node id="17" name="IMPI" c0="80" ></node>
+<node id="18" name="IMPU" c0="80" ></node>
+<node id="19" name="RR" c0="85" ></node>
+<node id="20" name="UC" c0="65" ></node>
+<node id="21" name="VOIP" c0="65" ></node>
+<node id="22" name="plateNum" c0="65" ></node>
+<node id="23" name="WeChat ID" c0="85" ></node>
+<node id="24" name="Talkbox" c0="85" ></node>
+<node id="25" name="MSN" c0="85" ></node>
+<node id="26" name="Third party device number" c0="85" ></node>
+<node id="32" name="Bank card number" c0="95" ></node>
+<node id="33" name="Bank account" c0="95" ></node>
+<node id="34" name="Constant passenger number" c0="65" ></node>
+<node id="35" name="Bank account number" c0="65" ></node>
+<node id="36" name="Operator account number" c0="65" ></node>
+<node id="37" name="Operator account" c0="65" ></node>
+<node id="38" name="Internal customer number of service provider" c0="65" ></node>
+<node id="39" name="Service provider login account" c0="65" ></node>
+<node id="40" name="The service provider group group number" c0="65" ></node>
+<node id="41" name="Service provider group ID" c0="65" ></node>
+<node id="51" name="baidu" c0="85" ></node>
+<node id="52" name="QIHU360" c0="85" ></node>
+<node id="53" name="Zhaopin" c0="85" ></node>
+<node id="54" name="58.com" c0="85" ></node>
+<node id="55" name="51job" c0="85" ></node>
+<node id="56" name="Alipay" c0="85" ></node>
+<node id="57" name="VIPSHOP" c0="85" ></node>
+<node id="58" name="Jumei" c0="85" ></node>
+<node id="59" name="dianping" c0="85" ></node>
+<node id="60" name="meituan" c0="85" ></node>
+<node id="61" name="iqiyi" c0="65" ></node>
+<node id="62" name="YY Live" c0="65" ></node>
+<node id="63" name="youku" c0="65" ></node>
+<node id="64" name="LETV" c0="65" ></node>
+<node id="65" name="SOHUVIDEO" c0="65" ></node>
+<node id="99" name="unknown" c0="65" ></node>
+<node id="100" name="Taobao" c0="85" ></node>
+<node id="101" name="JD" c0="85" ></node>
+</pattern>
+

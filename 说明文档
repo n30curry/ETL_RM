@@ -1,0 +1,5 @@
+第一步，往ndb里面插入数据，脚本是v6xj_rm.py  这里面你只需要看update这个接口，运行这个脚本的命令是 python v6xj_rm.py -d --startid=0 --endid=4 --procnum=4  意思是开4个进程运行这个脚本
+
+第二步， 计算ndb里每个点的老大，脚本是 loads.py  运行 python loads.py 0 4 4  也是开4个进程
+
+第三步， 往kdb_center 和 kdb_sub 里面灌数据，在启动这个脚本之前，需要 运行 multibarrier下的server.py  然后运行  python rm_repeat.py 0 4 4
